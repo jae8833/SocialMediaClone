@@ -20,8 +20,6 @@ exports.signup_post = [
   body("bio").escape(),
 
   async (req, res, next) => {
-    console.log(req.body);
-
     const err = validationResult(req);
 
     if (!err.isEmpty()) {

@@ -25,8 +25,6 @@ exports.userFriends_get = async function (req, res, next) {
       }
     );
 
-    console.log(formattedFriends);
-
     res.status(200).json(formattedFriends);
   } catch (err) {
     return res.status(404).json({ err: err.message });
@@ -66,13 +64,4 @@ exports.addRemoveFriend_put = async function (req, res, next) {
   } catch (err) {
     return res.status(404).json({ err: err.message });
   }
-};
-
-exports.profilePic_put = async function (req, res, next) {
-  const userID = req.params.id;
-  const user = User.findById(userID);
-
-  console.log(req);
-  // user.profilePic = req.
-  return res.status(201).json({ msg: "Profile pic created" });
 };
