@@ -113,11 +113,7 @@ exports.commentPost_put = async function (req, res, next) {
     const post = await Post.findById(postId);
     const user = await User.findById(userId);
 
-    if (post.userId.toString() == userId) {
-      post.comments.push(`${req.body.comment} - ${user.username} (You)`);
-    } else {
-      post.comments.push(`${req.body.comment} - ${user.username}`);
-    }
+    post.comments.push(`${req.body.comment} - ${user.username}`);
 
     const updatedPost = await Post.findByIdAndUpdate(
       postId,
