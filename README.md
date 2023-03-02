@@ -11,9 +11,9 @@ A full-stack MERN application that resembles a social media app. The project's f
 
 ## App Preview
 
-<img width="400" alt="SocialMediaClone1" src="https://user-images.githubusercontent.com/112460001/222305325-e38b7f85-a03c-4aab-9d0a-bce8d173dc1e.png">
+<img width="600" alt="SocialMediaClone1" src="https://user-images.githubusercontent.com/112460001/222305325-e38b7f85-a03c-4aab-9d0a-bce8d173dc1e.png">
 
-<img width="400" alt="SocialMediaClone2" src="https://user-images.githubusercontent.com/112460001/222305323-bfc0c5fa-f57a-4832-9c10-cb892e774d32.png">
+<img width="600" alt="SocialMediaClone2" src="https://user-images.githubusercontent.com/112460001/222305323-bfc0c5fa-f57a-4832-9c10-cb892e774d32.png">
 
 <img width="600" alt="SocialMediaClone3" src="https://user-images.githubusercontent.com/112460001/222305320-907734c2-554c-47ed-8ffd-666525d61299.png">
 
